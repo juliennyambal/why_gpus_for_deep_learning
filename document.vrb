@@ -1,0 +1,11 @@
+\frametitle{Demo}
+	
+	We will run short 2 experiments on both the CPU and the GPU:
+	\begin{itemize}
+		\item Multiplication of 2 scalar: 8.8 x 8.9
+		\item Multiplication of 2 relatively big matrices
+	\end{itemize}
+	
+		\centering
+	Demo Link:
+\href{https://colab.research.google.com/drive/1q32stN5vWQ3XApmu58BczJJy62wTI3Zf#scrollTo=UjuLyp2wMK7D}{Colab Experiment}.
