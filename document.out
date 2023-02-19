@@ -1,0 +1,12 @@
+\BOOKMARK [2][]{Outline0.1}{What is Machine Leaning?}{}% 1
+\BOOKMARK [2][]{Outline0.2}{Tensors: A naive description}{}% 2
+\BOOKMARK [3][]{Outline0.2.1.8}{Addition}{Outline0.2}% 3
+\BOOKMARK [3][]{Outline0.2.2.9}{Matrix Multiplication}{Outline0.2}% 4
+\BOOKMARK [2][]{Outline0.3}{Tensor Operations on Hardware}{}% 5
+\BOOKMARK [3][]{Outline0.3.1.12}{Matrix Computation on GPU vs CPU}{Outline0.3}% 6
+\BOOKMARK [2][]{Outline0.4}{RAM, CPU, GPU, TPU}{}% 7
+\BOOKMARK [3][]{Outline0.4.1.13}{TPU: Tensor Processing Unit}{Outline0.4}% 8
+\BOOKMARK [2][]{Outline0.5}{Hardware Comparison CPU vs GPU}{}% 9
+\BOOKMARK [3][]{Outline0.5.1.14}{Hardware Comparison CPU vs GPU}{Outline0.5}% 10
+\BOOKMARK [2][]{Outline0.6}{How does GPU works "faster" than the CPU?}{}% 11
+\BOOKMARK [2][]{Outline0.7}{Very short demo}{}% 12

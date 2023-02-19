@@ -1,0 +1,12 @@
+\beamer@sectionintoc {1}{What is Machine Leaning?}{4}{0}{1}
+\beamer@sectionintoc {2}{Tensors: A naive description}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Addition}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{Matrix Multiplication}{9}{0}{2}
+\beamer@sectionintoc {3}{Tensor Operations on Hardware}{12}{0}{3}
+\beamer@subsectionintoc {3}{1}{Matrix Computation on GPU vs CPU}{12}{0}{3}
+\beamer@sectionintoc {4}{RAM, CPU, GPU, TPU}{13}{0}{4}
+\beamer@subsectionintoc {4}{1}{TPU: Tensor Processing Unit}{13}{0}{4}
+\beamer@sectionintoc {5}{Hardware Comparison CPU vs GPU}{14}{0}{5}
+\beamer@subsectionintoc {5}{1}{Hardware Comparison CPU vs GPU}{14}{0}{5}
+\beamer@sectionintoc {6}{How does GPU works "faster" than the CPU?}{16}{0}{6}
+\beamer@sectionintoc {7}{Very short demo}{17}{0}{7}
