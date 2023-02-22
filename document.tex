@@ -28,7 +28,7 @@
 
 \begin{frame}
 	\centering
-	The CPU is the heart of the computer, and the GPU his soul ...
+	While a CPU is the brains of a computer, GPU is its soul ... Nvidia
 \end{frame}
 
 	\begin{frame}
@@ -36,9 +36,9 @@
 		\tableofcontents
 	\end{frame}
 
-\section{What is Machine Leaning?}
+\section{What is Machine Learning?}
 \begin{frame}
-	\frametitle{What is Machine Leaning?}
+	\frametitle{What is Machine Learning?}
 	\begin{figure}
 		\includegraphics[width=100mm,scale=0.7]{ml}
 		\caption{A general definition of a ML}
@@ -46,7 +46,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{What is Machine Leaning?: Conceptual Overview}
+	\frametitle{What is Machine Learning?: Conceptual Overview}
 	\begin{figure}
 	\includegraphics[width=100mm,scale=0.7]{ml_concept}
 	\caption{ML - Conceptual}
@@ -54,28 +54,87 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{What is Machine Leaning?: Deep Learning}
-\begin{figure}
-	\includegraphics[width=55mm,scale=0.5]{cnn}\hspace{2mm}
-	\includegraphics[width=55mm,scale=0.5]{drl}
-	\\[\smallskipamount]
-	\includegraphics[width=55mm,scale=0.5]{gan}\hspace{2mm}
-	\includegraphics[width=55mm,scale=0.5]{rnn}
-\end{figure}
+	\frametitle{What is Machine Learning?: Deep Learning}
+	\begin{figure}
+		\includegraphics[width=55mm,scale=0.5]{cnn}\hspace{2mm}
+		\includegraphics[width=55mm,scale=0.5]{drl}
+		\\[\smallskipamount]
+		\includegraphics[width=55mm,scale=0.5]{gan}\hspace{2mm}
+		\includegraphics[width=55mm,scale=0.5]{rnn}
+	\end{figure}
 \end{frame}
 
-\section{Tensors: A naive description}
+\section{RAM, CPU, GPU, TPU}
 \begin{frame}
-	\frametitle{Tensors: A naive description}
-		\begin{figure}
-		\includegraphics[width=100mm,scale=0.7]{tensors}
-		\caption{A general definition of a Tensor}
+	\frametitle{RAM, GPU, CPU, TPU}
+	\subsection{Description}
+	\begin{center}
+		\tiny
+	\begin{tabular}{| c | p{2.5cm}| p{2.5cm} | p{2.5cm} | }
+		\hline
+		\textbf{Acronym} & Central Processing Unit  & Graphical Processing Unit& Tensor Processing Unit \\
+		\hline
+		\textbf{Description} & Performs basic logic, arithmetic, and I/O operations, and allocate commands to other components and subsystems running in a computer. It is the orchestrator of the other hardware components of the computer system, including the GPU. Most systems have \textbf{a shared GPU resource for basic display}.& \textbf{Dedicated} device designed specifically to accelerate computer graphics workloads, particularly for 3D graphics. While they are still used for their original purpose of accelerating graphics rendering, GPU parallel computing is now used in a wide range of applications, including graphics and video rendering.  & Intel   \\
+		\hline
+		\textbf{Processing style} & Sequential (But multitask) & Distributed (Given a single heavy-duty load)  & -  \\
+		\hline
+		\textbf{Graphic Rendering API} & OpenCL& CUDA  & -  \\
+		\hline
+		\textbf{Specialty} & Orchestrating several tasks performed by the OS &	\begin{itemize}
+			\item Graphically intense video game Image Rendering
+			\item Distributed Complex matrix operation: \textbf{Machine Learning} and \textbf{HPC}
+			\item Video Editing 
+		\end{itemize} & -  \\
+		\hline  
+	\end{tabular}
+\end{center}
+\end{frame}
+
+\section{RAM, CPU, GPU, TPU}
+\begin{frame}
+	\frametitle{RAM, GPU, CPU, TPU}
+	\subsection{TPU: Tensor Processing Unit}
+	\begin{figure}
+		\includegraphics[width=50mm,scale=0.5]{ram5}\hspace{2mm}
+		\includegraphics[width=50mm,scale=0.5]{v100}
+		\\[\smallskipamount]
+		\includegraphics[width=50mm,scale=0.5]{cpu2}\hspace{2mm}
+		\includegraphics[width=50mm,scale=0.5]{tpu}
+		\caption{Some images}\label{fig:foobar}
+	\end{figure}
+\end{frame}
+
+\section{Hardware Comparison CPU vs GPU}
+\begin{frame}
+	\frametitle{Hardware Comparison CPU vs GPU}
+	\subsection{Hardware Comparison CPU vs GPU}
+	\begin{figure}
+		\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{cpu_vs_gpu}
 	\end{figure}
 \end{frame}
 
 \begin{frame}
+	\frametitle{Hardware Comparison CPU vs GPU}
+	\begin{center}
+		\begin{tabular}{| c | c | c |}
+			\hline
+			\textbf{Processor Type} & \textbf{CPU} & \textbf{GPU} \\ 
+			\hline
+			\textbf{Processor Model} & i9-10900K & Tesla V100 \\  
+			\textbf{Manufacturer} & Intel & Nvidia  \\
+			\textbf{Processor Speed (Max)} & 5.30 GHz & 1.380 GHz  \\
+			\textbf{Memory (up to)} & 128 GB (RAM) & 32 GB (GRAM) \\
+			\textbf{Number of Cores} & 10 & 5120 (CUDA cores) \\
+			\textbf{Memory Bandwidth} & 45.8 GB/s & 900 GB/s\\
+			\textbf{Price} & \textasciitilde R 16 000 & \textasciitilde R 200 000\\
+			\hline  
+		\end{tabular}
+	\end{center}
+\end{frame}
+
+\begin{frame}
 	\frametitle{Tensors: Operations - Addition}
-	\subsection{Addition}
+	%\subsection{Addition}
 		 \begin{figure}
 		\includegraphics[scale=0.17]{"1 - original_image"}
 		\caption{Original Image}
@@ -84,7 +143,7 @@
 
 \begin{frame}
 	\frametitle{Tensors: Operations - Addition}
-	\subsection{Addition}
+	%\subsection{Addition}
 	\begin{figure}
 		\includegraphics[scale=0.17]{"2 - gauss_noise"}
 		\caption{Noise}
@@ -93,7 +152,7 @@
 
 \begin{frame}
 	\frametitle{Tensors: Operations - Addition}
-	\subsection{Addition}
+	%\subsection{Addition}
 	\begin{figure}
 		\includegraphics[scale=0.17]{"3 - gn_img"}
 		\caption{Image + Noise}
@@ -102,7 +161,7 @@
 
 \begin{frame}
 	\frametitle{Tensors: Operations - Addition}
-	\subsection{Addition}
+	%\subsection{Addition}
 	\begin{figure}
 		\includegraphics[scale=0.17]{"4 - gn_img_avg"}
 		\caption{(Image + Noise) + Image}
@@ -111,7 +170,7 @@
 
 \begin{frame}
 	\frametitle{Tensors: Operations - Matrix Multiplication}
-	\subsection{Matrix Multiplication}
+	%\subsection{Matrix Multiplication}
 \begin{itemize}
 	\item The most used operation in Machine Learning/Deep Learning
 	\item There are many types of Matrix Multiplication of \textit{\textbf{MatMul}}. There 3 are the most common matrix multiplication:
@@ -125,7 +184,7 @@
 
 \begin{frame}
 	\frametitle{Tensors: Operations - Matrix Multiplication}
-	\subsection{Matrix Multiplication}
+	%\subsection{Matrix Multiplication}
 	\begin{figure}
 		\includegraphics[scale=0.17]{"1 - original_image"}
 		\caption{Image}
@@ -134,7 +193,7 @@
 
 \begin{frame}
 	\frametitle{Tensors: Operations - Matrix Multiplication}
-	\subsection{Matrix Multiplication}
+	%\subsection{Matrix Multiplication}
 	\begin{figure}
 		\includegraphics[scale=0.17]{"conv_1"}
 		\caption{Convolution 1}
@@ -143,7 +202,7 @@
 
 \begin{frame}
 	\frametitle{Tensors: Operations - Matrix Multiplication}
-	\subsection{Matrix Multiplication}
+	%\subsection{Matrix Multiplication}
 	\begin{figure}
 		\includegraphics[scale=0.17]{"conv_2"}
 		\caption{Convolution 2}
@@ -188,49 +247,6 @@
 	\centering
 	{\includegraphics[width=1.0\textwidth]{gpugif.png}}
 	\end{figure}
-\end{frame}
-
-\section{RAM, CPU, GPU, TPU}
-
-\begin{frame}
-	\frametitle{RAM, GPU, CPU, TPU}
-	\subsection{TPU: Tensor Processing Unit}
-\begin{figure}
-	\includegraphics[width=50mm,scale=0.5]{ram5}\hspace{2mm}
-	\includegraphics[width=50mm,scale=0.5]{v100}
-	\\[\smallskipamount]
-	\includegraphics[width=50mm,scale=0.5]{cpu2}\hspace{2mm}
-	\includegraphics[width=50mm,scale=0.5]{tpu}
-	\caption{Some images}\label{fig:foobar}
-\end{figure}
-\end{frame}
-
-\section{Hardware Comparison CPU vs GPU}
-\begin{frame}
-	\frametitle{Hardware Comparison CPU vs GPU}
-	\subsection{Hardware Comparison CPU vs GPU}
-	 \begin{figure}
-	 	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{cpu_vs_gpu}
-	 \end{figure}
-\end{frame}
-
-\begin{frame}
-	\frametitle{Hardware Comparison CPU vs GPU}
-\begin{center}
-	\begin{tabular}{| c | c | c |}
-		\hline
-		\textbf{Processor Type} & \textbf{CPU} & \textbf{GPU} \\ 
-		\hline
-		\textbf{Processor Model} & i9-10900K & Tesla V100 \\  
-		\textbf{Manufacturer} & Intel & Nvidia  \\
-		\textbf{Processor Speed (Max)} & 5.30 GHz & 1.380 GHz  \\
-		\textbf{Memory (up to)} & 128 GB (RAM) & 32 GB (GRAM) \\
-		\textbf{Number of Cores} & 10 & 5120 (CUDA cores) \\
-		\textbf{Memory Bandwidth} & 45.8 GB/s & 900 GB/s\\
-		\textbf{Price} & \textasciitilde R 16 000 & \textasciitilde R 200 000\\
-		\hline  
-	\end{tabular}
-\end{center}
 \end{frame}
 
 \section{How does GPU works "faster" than the CPU?}
