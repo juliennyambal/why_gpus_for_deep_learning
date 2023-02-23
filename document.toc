@@ -1,11 +1,12 @@
 \beamer@sectionintoc {1}{What is Machine Learning?}{4}{0}{1}
 \beamer@sectionintoc {2}{RAM, CPU, GPU, TPU}{7}{0}{2}
 \beamer@subsectionintoc {2}{1}{Description}{7}{0}{2}
-\beamer@sectionintoc {3}{RAM, CPU, GPU, TPU}{8}{0}{3}
-\beamer@subsectionintoc {3}{1}{TPU: Tensor Processing Unit}{8}{0}{3}
-\beamer@sectionintoc {4}{Hardware Comparison CPU vs GPU}{9}{0}{4}
-\beamer@subsectionintoc {4}{1}{Hardware Comparison CPU vs GPU}{9}{0}{4}
-\beamer@sectionintoc {5}{Tensor Operations on Hardware}{21}{0}{5}
-\beamer@subsectionintoc {5}{1}{Matrix Computation on GPU vs CPU}{21}{0}{5}
-\beamer@sectionintoc {6}{How does GPU works "faster" than the CPU?}{22}{0}{6}
-\beamer@sectionintoc {7}{Very short demo}{23}{0}{7}
+\beamer@subsectionintoc {2}{2}{TPU: Tensor Processing Unit}{8}{0}{2}
+\beamer@sectionintoc {3}{Hardware Comparison CPU vs GPU}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{Hardware Comparison CPU vs GPU}{9}{0}{3}
+\beamer@sectionintoc {4}{NVidia GPUs - CUDA APsI}{11}{0}{4}
+\beamer@sectionintoc {5}{Tensor Operations on Hardware}{24}{0}{5}
+\beamer@subsectionintoc {5}{1}{Matrix Computation on GPU vs CPU}{24}{0}{5}
+\beamer@sectionintoc {6}{How does GPU works "faster" than the CPU?}{25}{0}{6}
+\beamer@sectionintoc {7}{Very short demo}{26}{0}{7}
+\beamer@sectionintoc {8}{References and Extended Reading}{27}{0}{8}

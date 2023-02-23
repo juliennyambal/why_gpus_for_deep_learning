@@ -1,11 +1,17 @@
-\frametitle{Demo}
+\frametitle{References and Extended Reading (Links)}
 	
-	We will run short 2 experiments on both the CPU and the GPU:
 	\begin{itemize}
-		\item Multiplication of 2 scalar: 8.8 x 8.9
-		\item Multiplication of 2 relatively big matrices
+\item \href{https://openmetal.io/docs/product-guides/private-cloud/gpu-parallel-computing/#GPU-Parallel-Computing}{GPU-Parallel-Computing}
+\item \href{https://www.run.ai/guides/multi-gpu/cpu-vs-gpu#hpc}{CPU-vs-GPU 1}
+\item \href{https://linuxhint.com/cpu-vs-gpu/#:~:text=While%20a%20CPU%20is%20the,ignited%20a%20worldwide%20AI%20boom.}{CPU-vs-GPU 2}
+\item \href{https://cloud.google.com/tpu/docs/tpus}{TPU}
+\item \href{https://codelabs.developers.google.com/codelabs/keras-flowers-data/#2}{Keras}
+\item \href{https://cloud.google.com/blog/products/ai-machine-learning/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu}{TPU}
+\item \href{https://developer.nvidia.com/cuda-zone#:~:text=CUDA%C2%AE%20is%20a%20parallel,harnessing%20the%20power%20of%20GPUs.}{CUDA}
+\item \href{https://developer.nvidia.com/blog/even-easier-introduction-cuda/}{Intro to CUDA}
+\item \href{https://www.run.ai/guides/nvidia-cuda-basics-and-best-practices/nvidia-cudnn}{CUDnn}
+\item \href{https://phucnsp.github.io/blog/self-taught/2020/03/22/self-taught-pytorch-part1-tensor.html}{Fundamental DL: Pytorch}
+\item \href{https://www.gpuzoo.com/Compare/NVIDIA_Tesla_V100_SMX2__vs__NVIDIA_Titan_V/}{NVidia Titan V}
+\item \href{https://www.intel.com/content/www/us/en/developer/articles/news/raw-compute-power-of-new-intel-core-i9-processor-based-systems-enables-extreme-megatasking.html#:~:text=The%20new%20Intel%C2%AE%20Core,should%20calculate%20to%201.3%20teraflops.}{i9}
 	\end{itemize}
 	
-		\centering
-	Demo Link:
-\href{https://colab.research.google.com/drive/1q32stN5vWQ3XApmu58BczJJy62wTI3Zf#scrollTo=UjuLyp2wMK7D}{Colab Experiment}.
